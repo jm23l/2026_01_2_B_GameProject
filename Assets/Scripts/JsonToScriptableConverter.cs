@@ -282,7 +282,7 @@ public class JsonToScriptableConverter : EditorWindow
 
             foreach(var dialog in createDialogs)
             {
-                string assetPath = $"{outputFolder}/Dialog {dialog.id.ToString("D4")}.asset";
+                string assetPath = $"{outputFolder}/Dialog_{dialog.id.ToString("D4")}.asset";
                 AssetDatabase.CreateAsset(dialog, assetPath);
 
                 dialog.name = $"Dialog_{dialog.id.ToString("D4")}";
