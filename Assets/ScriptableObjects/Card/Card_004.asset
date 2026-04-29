@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c94a96c94372406489a78732205da64b, type: 3}
-  m_Name: Card_002
+  m_Name: Card_004
   m_EditorClassIdentifier: Assembly-CSharp::CardData
-  cardName: "\uD790"
-  description: "\uAE30\uBCF8 \uD790"
-  artwork: {fileID: 21300000, guid: c3aab7237df394c4890e647a4ae580ea, type: 3}
-  manaCost: 3
-  effectAmount: 5
+  cardName: "\uCE74\uB4DC \uD68D\uB4DD"
+  description: "\uCE74\uB4DC \uD558\uB098 \uB4DC\uB85C\uC6B0 \uD55C\uB2E4."
+  artwork: {fileID: 21300000, guid: 0f182fb2863faa7449e020de33b77e68, type: 3}
+  manaCost: 0
+  effectAmount: 1
   cardType: 1
+  additionalEffects:
+  - effectType: 1
+    effectAmount: 1
