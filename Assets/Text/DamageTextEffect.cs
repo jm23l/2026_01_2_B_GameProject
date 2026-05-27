@@ -63,13 +63,13 @@ public class DamageTextEffect : MonoBehaviour
 
         if (useGravity)
         {
-            verticalVelocity -= 300f * Time.deltaTime;
+            verticalVelocity -= 300f * Time.deltaTime;                                                              // 중력효과 (포물선 이동)
             rectTransform.anchoredPosition += new Vector2(0, verticalVelocity * Time.deltaTime);
             rectTransform.anchoredPosition += new Vector2(moveDirection.x * moveSpeed * Time.deltaTime, 0);
         }
         else
         {
-            rectTransform.anchoredPosition += (Vector2)(moveDirection * moveSpeed * Time.deltaTime);
+            rectTransform.anchoredPosition += (Vector2)(moveDirection * moveSpeed * Time.deltaTime);                // 직선 이동
         }
 
         timer += Time.deltaTime;

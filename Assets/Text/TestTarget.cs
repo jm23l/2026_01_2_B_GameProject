@@ -71,7 +71,7 @@ public class TestTarget : MonoBehaviour
 
             if (Random.value < statusEffectChance)
             {
-                string statusEffect = statusEffects[Random.Range(0, statusEffects.Length)];
+                string statusEffect = statusEffects[Random.Range(0, statusEffects.Length)] ;
                 ShowStatusEffect(statusEffect);
             }
         }
